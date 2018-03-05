@@ -1,0 +1,42 @@
+body,
+ul,
+ul li,
+a {
+  margin: 0px 0px;
+  padding: 0px 0px; }
+
+ul {
+  list-style: none; }
+
+a:hover,
+a:focus {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+h3 {
+  color: #ebe700; }
+
+p {
+  font-size: 14px;
+  color: #d10062; }
+
+.btn--twitter, .btn--facebook {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em; }
+
+.btn--twitter {
+  color: #fff;
+  background: #55acee; }
+
+.btn--facebook {
+  color: #fff;
+  background: #3b5998; }
+
+.btn--twitter:hover {
+  color: #ccc; }
+
+.btn--facebook:hover {
+  color: #ccc; }

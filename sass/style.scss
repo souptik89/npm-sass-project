@@ -1,4 +1,63 @@
+$header:#ebe700;
+body,
+ul,
+ul li,
+a {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    color: $header;
+}
+
 p {
-    font-size: 20px;
-    color: #d15400ef;
+    font-size: 14px;
+    color: #d10062;
+}
+
+%button {
+    min-width: 100px;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+%twitter-background {
+    color: #fff;
+    background: #55acee;
+}
+
+%facebook-background {
+    color: #fff;
+    background: #3b5998;
+}
+
+.btn {
+    &--twitter {
+        @extend %button;
+        @extend %twitter-background;
+        &:hover {
+            color: #ccc;
+        }
+    }
+    &--facebook {
+        @extend %button;
+        @extend %facebook-background;
+        &:hover {
+            color: #ccc;
+        }
+    }
 }
